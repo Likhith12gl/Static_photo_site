@@ -22,8 +22,8 @@
     position: fixed;
     height: 100vh;
     width: 30vh;
-    background-color: rgba(252, 254, 255, 0.4);
-    box-shadow:0 0 6px rgb(166, 134, 134,.5);
+    background-color: rgba(0, 0, 0, 0.627);
+    box-shadow:0 0 6px rgba(220, 215, 215, 0.5);
 
 }
 
@@ -31,6 +31,7 @@
     position: absolute;
     width: 100%;
     line-height: 60px;
+    box-shadow: 1 1 6px rgba(220, 215, 215, 0.5);
 
 }
 .sidebar_menu .logo a{
@@ -51,12 +52,31 @@
 .sidebar_menu .menu{
     position: absolute;
     top: 80px;
-    width: 100px;
+    width: 100%;
 
 }
 
 .sidebar_menu .menu li{
-    margin-top: 10px;
-    padding: 10 10 10;
+   
+    margin-top: 6px;
+    padding: 10px 20px;
 }
 
+.sidebar_menu .menu i,a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.sidebar_menu .menu i{
+    padding-right: 8px;
+   
+}
+
+.sidebar_menu .social_media{
+    color: white;
+    position: absolute;
+    left: 45px;
+    bottom: 20px;
+
+}
